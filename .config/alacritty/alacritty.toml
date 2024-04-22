@@ -1,0 +1,34 @@
+[general]
+import = ["~/.config/alacritty/themes/themes/catppuccin_frappe.toml"]
+
+[env]
+TERM = "xterm-256color"
+ALACRITTY = "true"
+
+[font]
+size = 13.5
+
+[font.bold]
+family = "Hack Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Hack Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Hack Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "Hack Nerd Font Mono"
+style = "Regular"
+
+[window]
+option_as_alt = "Both"
+decorations = "None"
+
+# Start up and/or attach to the the `main` session when opening Alacritty.
+[terminal.shell]
+program = "/bin/zsh"
+args = ["-l", "-c", "/opt/homebrew/bin/nu"]
