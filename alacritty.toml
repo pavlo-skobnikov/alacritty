@@ -25,4 +25,9 @@ family = "Hack Nerd Font Mono"
 style = "Regular"
 
 [window]
+startup_mode = "Fullscreen"
 option_as_alt = "Both"
+
+[window.padding]
+x = 5
+y = 5
