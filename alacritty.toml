@@ -1,9 +1,10 @@
 import = [
-    "~/.config/alacritty/themes/themes/gruvbox_dark.toml",
+    "~/.config/alacritty/active.toml", # Dynamically configure Alacritty's theme.
 ]
 
 [env]
 TERM = "xterm-256color"
+ALACRITTY = "true"
 
 [font]
 size = 13.0
