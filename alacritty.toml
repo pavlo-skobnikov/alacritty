@@ -28,6 +28,7 @@ style = "Regular"
 [window]
 startup_mode = "Fullscreen"
 option_as_alt = "Both"
+decorations = "None"
 
 [window.padding]
 x = 5
