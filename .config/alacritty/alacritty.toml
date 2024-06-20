@@ -26,7 +26,7 @@ family = "Hack Nerd Font Mono"
 style = "Regular"
 
 [window]
-startup_mode = "Fullscreen"
+startup_mode = "Maximized"
 option_as_alt = "Both"
 decorations = "None"
 
