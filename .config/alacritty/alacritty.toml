@@ -29,7 +29,3 @@ style = "Regular"
 startup_mode = "Maximized"
 option_as_alt = "Both"
 decorations = "None"
-
-[window.padding]
-x = 5
-y = 5
