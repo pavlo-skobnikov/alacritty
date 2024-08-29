@@ -1,5 +1,5 @@
 import = [
-    "~/.config/alacritty/active.toml", # Dynamically configure Alacritty's theme.
+  "~/.config/alacritty/active.toml", # Dynamically configure Alacritty's theme.
 ]
 
 [env]
