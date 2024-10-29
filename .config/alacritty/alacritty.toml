@@ -1,3 +1,4 @@
+[general]
 import = [
   "~/.config/alacritty/active.toml", # Dynamically configure Alacritty's theme.
 ]
