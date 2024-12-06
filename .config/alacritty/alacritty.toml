@@ -29,3 +29,7 @@ style = "Regular"
 [window]
 option_as_alt = "Both"
 decorations = "None"
+
+[terminal.shell]
+program = "/bin/zsh"
+args = ["-l", "-c", "zellij -l welcome"]
