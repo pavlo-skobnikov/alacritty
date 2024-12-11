@@ -30,6 +30,7 @@ style = "Regular"
 option_as_alt = "Both"
 decorations = "None"
 
+# Start up and/or attach to the the `main` session when opening Alacritty.
 [terminal.shell]
 program = "/bin/zsh"
-args = ["-l", "-c", "zellij -l welcome"]
+args = ["-l", "-c", "/opt/homebrew/bin/tmux new-session -A -s main"]
