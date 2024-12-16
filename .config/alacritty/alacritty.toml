@@ -33,4 +33,4 @@ decorations = "None"
 # Start up and/or attach to the the `main` session when opening Alacritty.
 [terminal.shell]
 program = "/bin/zsh"
-args = ["-l", "-c", "/opt/homebrew/bin/tmux new-session -A -s main"]
+args = ["-l", "-c", "/opt/homebrew/bin/nu"]
